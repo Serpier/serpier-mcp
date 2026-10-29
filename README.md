@@ -24,7 +24,7 @@ This is a hosted, remote MCP server. There is nothing to install or run. This re
 - **Cart and orders**: add publishers to your cart, place orders, follow order status and fill in the brief for each publication.
 - **Projects**: list and create the website projects in your organization.
 
-Actions that change data are marked as such, so your assistant can ask you before running them. Placing an order spends your organization's Serpier budget.
+Actions that change data are marked as such, so your assistant can ask you before running them. Placing an order is a real purchase, paid by card or invoice.
 
 ## Connect
 
