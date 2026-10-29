@@ -4,7 +4,7 @@
 
 <img src="assets/logo.png" alt="Serpier" width="96" align="right">
 
-[Serpier](https://serpier.com) is an SEO platform for marketing teams and agencies. The Serpier MCP server lets an AI assistant work in your Serpier account: monitor your brand's AI Visibility, track published articles, and find publishers and manage link-building orders.
+[Serpier](https://serpier.com) is an SEO platform for marketing teams and agencies. The Serpier MCP server lets an AI assistant work in your Serpier account: monitor your brand's AI Visibility and SEO performance, track published articles, and find publishers and manage link-building orders.
 
 This is a hosted, remote MCP server. There is nothing to install or run. This repository holds the connection details and the metadata that MCP registries and directories read.
 
@@ -19,6 +19,7 @@ This is a hosted, remote MCP server. There is nothing to install or run. This re
 ## What the assistant can do
 
 - **AI Visibility**: see how often your brand is mentioned and cited in AI answers for the prompts you track, add or remove prompts, and start new analysis runs.
+- **SEO Performance**: follow keyword rankings, search traffic and backlinks for your website projects.
 - **Publication tracking**: check whether published articles are live, indexed and still linking to you, and add new articles to monitor.
 - **Marketplace**: search Serpier's catalog of vetted publishers by country, topic, price and authority.
 - **Cart and orders**: add publishers to your cart, place orders, follow order status and fill in the brief for each publication.
