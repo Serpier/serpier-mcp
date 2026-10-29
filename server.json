@@ -2,8 +2,8 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "com.serpier/serpier",
   "title": "Serpier",
-  "description": "Monitor AI Visibility in ChatGPT and Gemini, track publications and manage SEO link orders.",
-  "version": "1.0.1",
+  "description": "Monitor your brand's visibility in AI answers, track publications and manage SEO link orders.",
+  "version": "1.0.2",
   "websiteUrl": "https://serpier.com",
   "repository": {
     "url": "https://github.com/Serpier/serpier-mcp",
@@ -13,12 +13,16 @@
     {
       "src": "https://app.serpier.com/favicon.png",
       "mimeType": "image/png",
-      "sizes": ["512x512"]
+      "sizes": [
+        "512x512"
+      ]
     },
     {
       "src": "https://serpier.com/favicon.svg",
       "mimeType": "image/svg+xml",
-      "sizes": ["any"]
+      "sizes": [
+        "any"
+      ]
     }
   ],
   "remotes": [
