@@ -1,5 +1,7 @@
 # Serpier MCP server
 
+[![Serpier on Glama](https://glama.ai/mcp/connectors/com.serpier/serpier/badges/score.svg)](https://glama.ai/mcp/connectors/com.serpier/serpier)
+
 <img src="assets/logo.png" alt="Serpier" width="96" align="right">
 
 [Serpier](https://serpier.com) is an SEO platform for marketing teams and agencies. The Serpier MCP server lets an AI assistant work in your Serpier account: monitor your brand's AI Visibility, track published articles, and find publishers and manage link-building orders.
