@@ -67,9 +67,9 @@ VS Code uses `servers` as the top-level key instead of `mcpServers`.
 gemini extensions install https://github.com/Serpier/serpier-mcp
 ```
 
-### Clients without OAuth
+### Personal access token
 
-If your client cannot sign in with OAuth, send a personal access token in the `x-api-key` header. Tokens require the Enterprise plan; see [Create a personal access token](https://docs.serpier.com/account-settings#create-a-personal-access-token).
+You can also connect with a personal access token, sent in the `x-api-key` header. Personal access tokens need the Enterprise plan; see [Create a personal access token](https://docs.serpier.com/account-settings#create-a-personal-access-token).
 
 ## Privacy and support
 
