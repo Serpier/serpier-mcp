@@ -1,0 +1,10 @@
+{
+  "name": "serpier",
+  "version": "1.0.1",
+  "description": "Monitor AI Visibility, track publications and manage SEO link orders in your Serpier account.",
+  "mcpServers": {
+    "serpier": {
+      "httpUrl": "https://app.serpier.com/api/mcp"
+    }
+  }
+}
