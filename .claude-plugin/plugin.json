@@ -1,0 +1,14 @@
+{
+  "name": "serpier",
+  "version": "1.0.3",
+  "description": "Track AI visibility and SEO performance, monitor publications and manage link-building orders in your Serpier account.",
+  "author": {
+    "name": "Serpier",
+    "email": "support@serpier.com",
+    "url": "https://serpier.com"
+  },
+  "homepage": "https://serpier.com/mcp",
+  "repository": "https://github.com/Serpier/serpier-mcp",
+  "license": "MIT",
+  "keywords": ["seo", "ai-visibility", "link-building", "mcp"]
+}

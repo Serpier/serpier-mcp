@@ -1,0 +1,6 @@
+{
+  "serpier": {
+    "type": "http",
+    "url": "https://app.serpier.com/api/mcp"
+  }
+}
