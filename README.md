@@ -41,6 +41,14 @@ Add a custom app with the server URL, then select **Authenticate** and sign in t
 
 ### Claude Code
 
+Install the Serpier plugin:
+
+```
+/plugin install serpier --marketplace Serpier/serpier-mcp
+```
+
+Or add the server by hand:
+
 ```bash
 claude mcp add --transport http serpier https://app.serpier.com/api/mcp
 ```
@@ -87,11 +95,12 @@ You can also connect with a personal access token, sent in the `x-api-key` heade
 | [`server.json`](server.json) | The [Official MCP Registry](https://registry.modelcontextprotocol.io) and the directories that import from it, such as the GitHub MCP Registry |
 | [`mcp.json`](mcp.json) | MCP clients that take a JSON server configuration |
 | [`gemini-extension.json`](gemini-extension.json) | Gemini CLI |
+| [`.claude-plugin/`](.claude-plugin) and [`.mcp.json`](.mcp.json) | Claude Code plugins |
 | [`llms-install.md`](llms-install.md) | AI agents that install MCP servers for you, such as Cline |
 
 ## Releasing
 
-1. Raise `version` in `server.json` and `gemini-extension.json` to the same value.
+1. Raise `version` in `server.json`, `gemini-extension.json` and `.claude-plugin/plugin.json` to the same value.
 2. Merge to `main`, then push a tag `v<version>`.
 3. The [publish workflow](.github/workflows/publish.yml) publishes `server.json` to the Official MCP Registry. It signs in with the `serpier.com` DNS key stored in the `MCP_REGISTRY_PRIVATE_KEY` secret.
 

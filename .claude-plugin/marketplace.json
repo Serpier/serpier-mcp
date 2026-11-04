@@ -1,0 +1,18 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "serpier",
+  "description": "Serpier's Claude Code plugin.",
+  "owner": {
+    "name": "Serpier",
+    "email": "support@serpier.com"
+  },
+  "plugins": [
+    {
+      "name": "serpier",
+      "description": "Track AI visibility and SEO performance, monitor publications and manage link-building orders in your Serpier account.",
+      "source": "./",
+      "category": "productivity",
+      "homepage": "https://serpier.com/mcp"
+    }
+  ]
+}
