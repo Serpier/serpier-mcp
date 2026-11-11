@@ -19,7 +19,7 @@ This is a hosted, remote MCP server. There is nothing to install or run. This re
 ## What the assistant can do
 
 - **AI Visibility**: see how often your brand is mentioned and cited in AI answers for the prompts you track, add or remove prompts, and start new analysis runs.
-- **SEO Performance**: follow keyword rankings, search traffic and backlinks for your website projects.
+- **SEO Performance**: set up keyword rank tracking for a website project, add and tag keywords, start rank checks, and follow rankings, search traffic and backlinks.
 - **Publication tracking**: check whether published articles are live, indexed and still linking to you, and add new articles to monitor.
 - **Marketplace**: search Serpier's catalog of vetted publishers by country, topic, price and authority.
 - **Cart and orders**: add publishers to your cart, place orders, follow order status and fill in the brief for each publication.
