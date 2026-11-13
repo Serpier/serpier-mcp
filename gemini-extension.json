@@ -1,6 +1,6 @@
 {
   "name": "serpier",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Track AI visibility and SEO performance, monitor publications and manage SEO link orders in your Serpier account.",
   "mcpServers": {
     "serpier": {
