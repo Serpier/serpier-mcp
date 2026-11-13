@@ -101,8 +101,8 @@ You can also connect with a personal access token, sent in the `x-api-key` heade
 ## Releasing
 
 1. Raise `version` in `server.json`, `gemini-extension.json` and `.claude-plugin/plugin.json` to the same value.
-2. Merge to `main`, then push a tag `v<version>`.
-3. The [publish workflow](.github/workflows/publish.yml) publishes `server.json` to the Official MCP Registry. It signs in with the `serpier.com` DNS key stored in the `MCP_REGISTRY_PRIVATE_KEY` secret.
+2. Merge to `main` once the Serpier change the new version describes is live.
+3. The [publish workflow](.github/workflows/publish.yml) sees the version has no tag yet, publishes `server.json` to the Official MCP Registry and pushes tag `v<version>`. It signs in with the `serpier.com` DNS key stored in the `MCP_REGISTRY_PRIVATE_KEY` secret. A merge that leaves the version alone publishes nothing.
 
 ## License
 
